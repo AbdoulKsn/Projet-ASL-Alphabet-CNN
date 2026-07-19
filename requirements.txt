@@ -1,5 +1,5 @@
-streamlit
-tensorflow
-numpy
+streamlit==1.59.2
+tensorflow==2.15.1
+numpy==1.26.4
 Pillow
 joblib
