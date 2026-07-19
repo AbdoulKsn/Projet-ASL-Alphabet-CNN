@@ -6,7 +6,8 @@ import json
 from PIL import Image
 
 # Chargement du modèle
-model = tf.keras.models.load_model("ASL_Alphabet_cnn.h5",compile=False
+model = tf.keras.models.load_model("ASL_Alphabet_cnn.h5", compile=False, safe_mode=False
+
 )
 
 # Chargement des classes
